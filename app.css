@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Dosis', sans-serif;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.col-1 {
+    width: 8.33%;
+    float: left;
+}
+.col-2 {
+    width: 16.66%;
+    float: left;
+}
+.col-3 {
+    width: 25%;
+    float: left;
+}
+.col-4 {
+    width: 33.33%;
+    float: left;
+}
+.col-5 {
+    width: 41.66%;
+    float: left;
+}
+.col-6 {
+    width: 50%;
+    float: left;
+}
+.col-7 {
+    width: 58.33%;
+    float: left;
+}
+.col-8 {
+    width: 66.66%;
+    float: left;
+}
+.col-9 {
+    width: 75%;
+    float: left;
+}
+.col-10 {
+    width: 83.33%;
+    float: left;
+}
+.col-11 {
+    width: 91.66%;
+    float: left;
+}
+.col-12 {
+    width: 100%;
+    float: left;
+}
+/* header part */
+#main{
+    background-color: #223047;
+    height: 600px;
+}
+.nav{
+    padding: 20px 0px;
+}
+.logo-part{
+    padding: 20px 0px;
+    text-align: center;
+}
+.menu-part{
+    padding: 20px 0px;
+}
+.menu-part li{
+    display: inline;
+    margin: 0px 10px;
+    border-radius: 5px;
+    text-align: end;
+    padding: 10px;
+}
+.menu-part li:hover{
+    background-color: #558ce4;
+    border-radius: 5px;
+}
+.menu-part a{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.btn-part{
+    padding: 20px 0px;
+    text-align: center;
+}
+.btn-part a button{
+    color: #223047;
+    background-color: #00fff0;
+    width: 25%;
+    padding: 10px;
+    transition: ease-in-out .08s;
+    border-radius: 5px;
+}
+.btn-part a button:hover{
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px #073330;
+}
+.hero-part{
+    margin-top: 20px;
+}
+.hero-writing-part h1{
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 90px;
+    padding: 60px 0px 0px 200px;
+}
+.hero-writing-part p{
+    color: #fff;
+    padding: 30px 0px 0px 200px;
+}
+.hero-btn-group{
+    padding: 70px 20px 20px 200px;
+}
+.hero-btn-group a button{
+    color: #fff;
+    background-color: #223047;
+    padding: 10px;
+    width: 30%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px #fff;
+}
+.hero-btn-group a button:hover{
+    color: #223047;
+    background-color: #00fff0;
+}
+.hero-btn-group a{
+    padding: 0px 30px 0px 0px;
+}
+.hero-image-part{
+    padding: 40px 0px 0px 150px;
+}
+/* online */
+#online{
+    /* background-color: #fff; */
+}
+.online-writing h2{
+    font-size: 25px;
+    font-weight: 600;
+    color: #223047;
+    text-align: center;
+    margin-top: 200px;
+}
+.underline{
+    border-top: 5px solid #00fff1;
+    width: 5%;
+    margin: 50px auto;
+}
+.online-box{
+    margin: 20px 150px;
+}
+.online-image{
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 0px 3px rgb(245, 224, 224);
+}
+.online-image img{
+    margin: auto;
+    padding: 10px 10px 10px 30px;
+}
+.online-image h3{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    color: #223047;
+}
+.online-image p{
+    text-align: center;
+    color: #223047;
+}
+/* get more */
+#get{
+    background-color: #f5f6fa;
+}
+.get-blank{
+    background-color: #323a4d;
+    padding: 200px;
+}
+.get-writing{
+    padding: 100px;
+}
+.get-writing h2{
+    font-size: 25px;
+    font-weight: 600;
+    color: #223047;
+}
+.get-writing p{
+    color: #223047;
+    margin-top: 30px;
+    width: 75%;
+}
+/* ready */
+#ready{
+    background-color: #fff;
+}
+.ready-1-writing h2{
+    font-size: 25px;
+    font-weight: 600;
+    color: #223047;
+    padding: 60px;
+    text-align: end;
+}
+.ready-1-writing p{
+    color: #223047;
+    text-align: end;
+    padding: 0px 60px;
+    float: right;
+    width: 70%;
+}
+.ready-1-writing button{
+    float: right;
+    margin: 60px;
+    padding: 60px;
+    text-align: end;
+}
+.ready-1-writing a button{
+    margin-top: 50px;
+    padding: 10px;
+    color: #223047;
+    background-color: #00fff0;
+    width: 20%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px #fff;
+}
+.ready-1-image{
+    margin-top: 50px;
+    padding: 10px;
+}
+.ready-1-image img{
+    height: 300px;
+    width: 450px;
+}
+.ready-2-writing{
+
+}
+.ready-3{
+    background-color: #f5f6fa;
+    height: 500px;
+}
+.ready-3-writing h2{
+    font-size: 25px;
+    font-weight: 600;
+    color: #223047;
+    padding: 25px 60px;
+    margin-top: 50px;
+    text-align: end;
+}
+.ready-3-writing h3{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: end;
+    padding: 5px 80px;
+}
+.ready-3-writing p{
+    color: #223047;
+    text-align: end;
+    padding: 0px 60px;
+    float: right;
+    width: 70%;
+}
+.readt-3-image{
+    margin-top: 50px;
+    padding: 10px;
+}
+#watch{
+    background-color: #223047;
+    height: 500px;
+}
+.watch-writing{
+    text-align: center;
+    color: #fff;
+}
+.watch-writing{
+    margin-top: 150px;
+}
+.watch-writing h3{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 40px;
+}
+.watch-writing p{
+    width: 50%;
+    margin: auto;
+}
+#join{
+    background-color: #fff;
+    background-image: url(app-11.png);
+    /* height: 500px; */
+}
+.join-writing{
+    text-align: center;
+    color: #223047;
+    padding: 70px;
+    margin: 150px;
+}
+.join-writing h2{
+    margin: 60px;
+    font-size: 25px;
+    font-weight: 600;
+    /* padding: 60px; */
+    margin-top: 80px;
+}
+.join-writing button{
+    margin-top: 50px;
+    padding: 10px;
+    color: #223047;
+    background-color: #00fff0;
+    width: 20%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px #fff;
+}
+#passage{
+    background-color: #223047;
+    color: #02f1e6;
+    height: 250px;
+}
+.passage-writing{
+    text-align: center;
+    margin-top: 80px;
+}
+.passage-writing p{
+    width: 50%;
+    margin: auto;
+}
